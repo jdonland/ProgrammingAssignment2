@@ -3,7 +3,7 @@
 ## Create a list of functions to set/get the values of a matrix and its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
-	i      <- NULL
+  i      <- NULL
   set    <- function(y)   {x <<- y ; i <<- NULL}
   get    <- function()    {x}
   setinv <- function(inv) {i <<- inv}
